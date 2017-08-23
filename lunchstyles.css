@@ -1,0 +1,107 @@
+@font-face{
+        font-family: 'neatfont';
+        src: url(mission-script.otf);
+}
+
+/* @font-face{
+        font-family: 'neatfont';
+        src: url(Sweet_Sensations_Personal_Use.ttf); 
+}  */
+
+html {
+    
+  background-image:
+    linear-gradient(
+      lightblue, white
+    );
+
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    font-family: 'neatfont';
+}
+
+.container {
+    margin: auto;
+    width: 460px;
+    border-radius: 10px;
+    background-color: #4C8BB2;
+    padding-bottom: 5%;
+}
+
+#text {
+    margin-top: 10%;
+    padding-top: 10%;
+    margin-left: ;
+    color: white;
+    font-size: 2.9em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-left: ;
+}
+
+.wrapper {
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+#restaurant {
+    border: 3px solid white;
+    margin-top: 12px;
+    border-radius: 100%;
+    margin-left: 130px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+#choice {
+    border: 3px solid orangered;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 7%;
+    
+    transition: background 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+button:focus {outline:0;}
+
+table {
+    padding-top: 30px;
+    width: 460px;
+    margin: auto;
+}
+
+tr {
+    justify-content: space-between;
+}
+
+.t {
+    height: 80px;
+    margin: auto;
+}
+
+#choice:hover { 
+  /*  border: 3px dotted orangered; */
+    background: white;
+    color: orangered;
+    transition: background-color 0.3s ease-in,
+              color 0.2s ease-out;
+    
+}
+
